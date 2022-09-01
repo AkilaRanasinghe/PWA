@@ -1,0 +1,49 @@
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.itemdet {	
+  border-radius:2%;
+  background-color:#92e0c7;
+  float: left;
+  width: 80%;
+  padding: 25px 3px 25px 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 25px 10px 25px 25px;
+}
+
+.imgside {
+  float: left;
+  width: 30%;
+  padding: 25px 3px 25px 25px;
+}
+
+.dtlside {
+  
+  background-color:lightblue;
+  float: left;
+  width: 67%;
+  margin-top:27px;
+  padding: 50px 20px 40px 50px;
+}
+
+.imge {
+	height :400px;
+	width : 100%;
+	border-radius:5%;
+}
+
+.dtlside h1 {
+	color: #29755c;
+}
+
+.itemdet button{
+	width:100px;
+	margin: 10px;
+	padding: 5px;
+	color: white;
+	background-color: #70bafa;
+	border-radius: 5px;
+}

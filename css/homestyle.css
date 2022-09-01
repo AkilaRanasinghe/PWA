@@ -1,0 +1,76 @@
+
+/*---------wellcome--------*/
+.wellcome h2, h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana', 'sans-serif';
+    font-style: normal;
+    color: #085480;
+    text-align: center;
+  }
+  .wellcome video{
+    width: auto;
+    height: 360px;
+    display: block;
+    margin: auto;
+    border: 5px outset #51E09A;
+  }
+  
+.tbl-header {
+    height: 350px;
+    overflow-y: scroll;
+    width:100%;
+    margin: auto;
+      table-layout: fixed;
+}
+.tbl-header{
+    background-color: rgba(255,255,255,0.3);
+}
+    .tbl-header th{
+      width: auto;
+      padding: 20px 50px;
+      text-align: center;
+      font-weight: 500;
+      font-size: 15px;
+      color: #fff;
+      text-transform: uppercase;
+      border: 1px solid rgba(255,255,255,0.3);
+      }
+      .tbl-content{
+        
+        overflow-x:auto;
+        margin-top: 0px;
+        border: 1px solid rgba(255,255,255,0.3);
+      width:100%;
+      margin: auto;
+      table-layout: fixed;
+      
+      
+      }
+  .tbl-content td{
+      width: auto;
+      padding: 15px;
+      text-align: left;
+      vertical-align:top;
+      font-weight: 300;
+      font-size: 15px;
+      border: 1px solid rgba(255,255,255,0.3);  
+      background-color: #1B9F9C;
+    }
+  .btn {
+      
+	  text-align: center;
+      font-family: Montserrat, sans-serif;
+      font-weight: 400;
+      font-size: 30px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 8px 28px;
+      border-radius: 50px;
+      transition: 0.5s;
+      margin: 10px;
+      border: 2px solid rgb(28, 123, 129);
+      color: rgb(122, 19, 19);
+    }
+	
+	.btn a:link {
+	  text-decoration: none;
+	}
