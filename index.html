@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" type="text/css" href="css/headfoot.css"/>
+<link rel="stylesheet" type="text/css" href="css/formstyle.css"/>
+</head>
+<Body style="height:120vh;">
+<!-----------HEADER-------------->
+<header id = "header">
+<div class="topnavname">
+	<img src="images/example.png">
+	<a class="active" href="#">ABC Services</a>
+</div>
+</header>
+<header id = "header">
+<div class="topnav"> 
+	<a href="home.php">Home</a>
+	<a href="requestservice.php">Request service</a>
+	<a href="feedback.php">Contact Us</a>
+	<a href="aboutus.php">About Us</a>
+	<div>
+		<a class="active" href="#">Login </a>
+	</div>
+	<div class="search-container">
+		<form method="POST" action="search.php">
+		<input type="text" placeholder="Search.." name="search">
+		<button type="submit"><img src = "images/search.jpg"></button>
+		</form>
+	</div>
+</div>
+</header>
+<!--header ends here-->
+
+<br ><br >
+<center>
+	<div id="loginpic">
+		<img src="images/login.png" height="110px" >
+	</div>
+</center>
+<h1 align = "center">Login</h1>
+<div class="row">
+	<div class="column"></div>
+	<div class="column input-form" style="background-color:rgb(163, 237, 239);border-radius:5px;" align="center">
+		<form action="php/loginsearch.php" method="POST">
+		<center>
+		<br>		
+		<input type="text" placeholder="Username/Email" name="Uname" required>
+		<br>
+		<input type="password" placeholder="Password" name="Password" required>
+		<br><br>
+		<input type="submit" id="sbt" value="Login">
+		<br><br>		
+		<hr>		
+		<h3>
+		<a href="signup.php">Not Registered Yet?</a>
+		</h3>
+		</center>
+		</form>
+	</div>
+	<div class="column"></div>
+</div>
+<br ><br ><br ><br >
+
+<!----------FOOTER-------------->
+<div class="footer" align="center">
+	<div class="row">
+		<div class="column" align="center">
+			<div class="colfot">
+			</div>
+			<div class="colfot1">
+				<img class="logo" src="images/phone.png" width="50" height="50" alt="phone">
+			</div>
+			<div class="colfot2">
+				HOTLINE
+				<br><br>
+				0115610123
+			</div>
+		</div>
+		<div class="column" style="color: white">
+			<br>
+			Copyright 2021 © ABC Services. All rights reserved.
+		</div>
+		<div class="column" align="right">
+			<br>
+			<div class="colicon">
+				<a href="#"><img class="logo" src="images/insta.png" width="35" height="35" alt="insta"></a>
+			</div>
+			<div class="colicon">
+				<a href="#"><img class="logo" src="images/whats.png" width="35" height="35" alt="whats"></a>
+			</div>
+			<div class="colicon">
+				<a href="#"><img class="logo" src="images/face.png" width="35" height="35" alt="face"></a>
+			</div>
+			<div class="colicon">
+				<a href="#"><img class="logo" src="images/twitter.png" width="35" height="35" alt="twitter"></a>
+			</div>
+		</div>
+	</div>
+</div>
+<!--footer ends here-->
+</body>
+</html>
